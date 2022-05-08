@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <!-- header -->
+    <header class="header">
+        <a class="studio_naming" href=""> <span class="naming_first_part">Web</span>Studio</a>
+        <!-- navigation -->
+        <nav class="navigation">
+            <ul class="links">
+                <li class="item"><a class="link" href="./index.html">Студия</a></li>
+                <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li class="item"><a class="link" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <!-- contacts -->
+        <ul class="contact_links">
+            <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
+    <!-- projects sort buttons -->
+    <main>
+        <!-- sort buttons -->
+        <section>
+            <h2 hidden>Сортувальні кнопки</h2>
+            <ul class="sort_buttons">
+                <li><button class="sort_button">Все</button></li>
+                <li><button class="sort_button">Веб-сайты</button></li>
+                <li><button class="sort_button">Приложения</button></li>
+                <li><button class="sort_button">Дизайн</button></li>
+                <li><button class="sort_button">Маркетинг</button></li>
+            </ul>
+        </section>
+        <!-- projects -->
+        <section>
+        <ul class="studio_projects">
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/laptop.jpg" alt="ноутбук із скріншотом сайту">
+                <h3 class="project_naming">Технокряк</h3>
+                <p class="project_direction">Веб-сайт</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/basketball.jpg" alt="два гравця грають у баскетбол">
+                <h3 class="project_naming">Постер New Orlean vs Golden Star</h3>
+                <p class="project_direction">дизайн</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/restorant_logo.jpg" alt="логотип ресторану seafood">
+                <h3 class="project_naming">Ресторан Seafood</h3>
+                <p class="project_direction">Приложение</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/headphones.jpg" alt="фото навушників">
+                <h3 class="project_naming">Проект Prime</h3>
+                <p class="project_direction">Маркетинг</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/boxes.jpg" alt="фото двох коробок">
+                <h3 class="project_naming">Проект Boxes</h3>
+                <p class="project_direction">Приложение</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/imac.jpg" alt="фото компютера">
+                <h3 class="project_naming">Inspiration is no Borders</h3>
+                <p class="project_direction">Веб-сайт</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/book.jpg" alt="книга">
+                <h3 class="project_naming">Издание Limited Edition</h3>
+                <p class="project_direction">Дизайн</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/birka.jpg" alt="ярлик">
+                <h3 class="project_naming">Проект lAB</h3>
+                <p class="project_direction">Маркетинг</p>
+            </li>
+            <li class="studio_project">
+                <img class="project_photo" src="./pictures/printing.jpg" alt="руки на клавіатурі">
+                <h3 class="project_naming">Growing Business</h3>
+                <p class="project_direction">Приложение</p>
+            </li>
+        </ul>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="footer">
+        <a class="studio_naming" href=""> <span class="naming_first_part">Web</span> <span
+                class="naming_second_part">Studio</span></a>
+        <address>
+            <ul class="footer_contacts">
+                <li><a target="blank" class="studio_location" href="https://goo.gl/maps/rv8X6NTWvVzBSWie9">г. Киев, пр-т
+                        Леси Украинки, 26</a></li>
+                <li><a class="studio_mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="studio_phone_number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
+</body>
+</html>
