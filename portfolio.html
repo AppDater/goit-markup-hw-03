@@ -17,28 +17,31 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="container">
+<body>
     <!-- header -->
     <header class="header">
-        <a class="studio_naming" href=""> <span class="naming_first_part">Web</span>Studio</a>
-        <!-- navigation -->
-        <nav class="navigation">
-            <ul class="links">
-                <li class="item"><a class="link" href="./index.html">Студия</a></li>
-                <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
-                <li class="item"><a class="link" href="">Контакты</a></li>
+        <div class="container header_container">
+            <a class="studio_naming" href=""> <span class="naming_first_part">Web</span>Studio</a>
+            <!-- navigation -->
+            <nav class="navigation">
+                <ul class="links">
+                    <li class="item"><a class="link" href="./index.html">Студия</a></li>
+                    <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="item"><a class="link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- contacts -->
+            <ul class="contact_links">
+                <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <!-- contacts -->
-        <ul class="contact_links">
-            <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <!-- projects sort buttons -->
     <main>
         <!-- sort buttons -->
         <section>
+            <div class="container">
             <h2 hidden>Сортувальні кнопки</h2>
             <ul class="sort_buttons">
                 <li><button class="sort_button">Все</button></li>
@@ -47,9 +50,11 @@
                 <li><button class="sort_button">Дизайн</button></li>
                 <li><button class="sort_button">Маркетинг</button></li>
             </ul>
+            </div>
         </section>
         <!-- projects -->
         <section>
+            <div class="container">
         <ul class="studio_projects">
             <li class="studio_project">
                 <img class="project_photo" src="./pictures/laptop.jpg" alt="ноутбук із скріншотом сайту">
@@ -97,20 +102,23 @@
                 <p class="project_direction">Приложение</p>
             </li>
         </ul>
+            </div>
         </section>
     </main>
     <!-- footer section -->
     <footer class="footer">
-        <a class="studio_naming" href=""> <span class="naming_first_part">Web</span> <span
-                class="naming_second_part">Studio</span></a>
-        <address>
-            <ul class="footer_contacts">
-                <li><a target="blank" class="studio_location" href="https://goo.gl/maps/rv8X6NTWvVzBSWie9">г. Киев, пр-т
-                        Леси Украинки, 26</a></li>
-                <li><a class="studio_mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="studio_phone_number" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="studio_naming" href=""> <span class="naming_first_part">Web</span> <span
+                    class="naming_second_part">Studio</span></a>
+            <address>
+                <ul class="footer_contacts">
+                    <li><a target="blank" class="studio_location" href="https://goo.gl/maps/rv8X6NTWvVzBSWie9">г. Киев, пр-т
+                            Леси Украинки, 26</a></li>
+                    <li><a class="studio_mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="studio_phone_number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
