@@ -114,6 +114,9 @@ margin-right:50px;
 .link:hover, .link:focus{
     color: var(--action_color);
 }
+.link_uncommon{
+    color: var(--action_color);
+}
 .link{
     text-decoration:none;
   
