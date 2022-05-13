@@ -85,7 +85,6 @@ color: inherit;
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 331px;
 }
 .item{
 
@@ -127,9 +126,9 @@ margin-right:50px;
     padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .hero h1{
-flex-wrap: wrap;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -137,13 +136,10 @@ width: 696px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--back_color);
-padding: 0;
-margin-top: 0;
+margin: 0 auto;
+margin-bottom: 30px;
 }
 .hero .container{
-    display: flex;
-    text-align: center;
-justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -159,7 +155,7 @@ justify-content: center;
     border-radius: 4px;
     padding: 10px 32px;
 }
-.about .container{
+.about{
     padding-top: 94px;
 }
 .about_activity{
@@ -169,6 +165,10 @@ justify-content: center;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
+}
+.activity_direction{
+    width: 270px;
+    height: 100px;
 }
 .activity_naming{
     font-weight: 700;
@@ -185,12 +185,11 @@ justify-content: center;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    width: 270px;
     padding-top: 0;
     padding-bottom: 0;
     margin: 0;
 }
-.illustration .container{
+.illustration {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -226,7 +225,6 @@ justify-content: center;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: auto 215px;
     margin-bottom: 50px;
 }
 .team_members_inf{
@@ -280,6 +278,7 @@ address a{
 }
 .navigation{
     padding: 0;
+    margin-right: auto;
 }
 .footer_contacts{
     padding: 0;
@@ -297,7 +296,6 @@ margin-bottom: 9px;
 .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
-    display: flex;
 }
 .sort_button{
     background-color:#F5F4FA;
@@ -311,21 +309,17 @@ margin-bottom: 9px;
     padding: 6px 21px;
     border: 0;
 }
-.sort_button:last-child{
-    margin-right: 0;
-}
 .sort_buttons{
     text-align: center;
     padding: 0;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
-.sort_buttons li{
-    display: inline;
-    margin-right: 8px;
+.sort_buttons li:not(:last-child){
+ margin-right: 8px;
 }
-.sort_buttons li:last-child{
-    margin-right: 0;
-}
+
 .sort_button:hover, .sort_button:focus{
     background-color: var(--action_color);
     color:var(--back_color);
